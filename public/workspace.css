@@ -1,0 +1,268 @@
+:root {
+	--turquoise: #00b8c6;
+	--whiteTransparent: #ffffff26;
+	--whiteMoreTransparent: #ffffff6b;
+	--white: #fff;
+	--ltGrey: #0000001f;
+	--drkGrey: #00000099;
+	--black: #000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	font-family: "Roboto", "sans-serif";
+}
+
+/* -----Navbar----- */
+.navbar {
+	height: 56px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--turquoise);
+	color: var(--white);
+}
+
+.navbar__left {
+	display: flex;
+}
+
+.navbar__left__burger {
+	width: 18px;
+	height: 12px;
+	margin-left: 19px;
+}
+
+.navbar__left__company {
+	width: 87px;
+	margin-left: 35px;
+	font-size: 1.25rem;
+	font-weight: 500;
+	letter-spacing: 0.15px;
+}
+
+.navbar__right {
+	display: flex;
+	align-items: center;
+}
+
+.navbar__right__form {
+	width: 200px;
+	height: 36px;
+	margin-right: 35px;
+	position: relative;
+}
+.navbar__right__search {
+	width: 100%;
+	height: 100%;
+	padding-left: 50px;
+	background-color: var(--whiteTransparent);
+	border: none;
+	border-radius: 4px;
+}
+
+.navbar__right__search::placeholder {
+	font-size: 1rem;
+	letter-spacing: 0.15px;
+	color: var(--whiteMoreTransparent);
+}
+
+.navbar__right__search__btn {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.navbar__right__search__btn__img {
+	font-size: 1rem;
+}
+
+.navbar__right__notification {
+	margin-right: 31px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.navbar__right__share {
+	margin-right: 26px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.navbar__right__profile {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.1rem;
+	cursor: pointer;
+}
+
+/* -----Main Wrapper----- */
+.wrapper {
+	display: flex;
+}
+
+/* -----Sidebar----- */
+.sidebar {
+	width: 360px;
+}
+
+.sidebar__bio {
+	padding: 5px 19px;
+	display: flex;
+	padding-bottom: 5px;
+	border-bottom: 1px solid var(--ltGrey);
+}
+
+.sidebar__info {
+	margin-left: 19px;
+}
+
+.sidebar__name {
+	font-size: 1.25rem;
+}
+
+.sidebar__email {
+	color: var(--drkGrey);
+	font-size: 0.875rem;
+}
+
+.sidebar__top,
+.sidebar__bottom {
+	width: 100%;
+	border-bottom: 1px solid var(--ltGrey);
+}
+
+.sidebar__top__item,
+.sidebar__bottom__item {
+	height: 48px;
+	padding: 12px 16px 14px;
+	display: flex;
+	align-items: center;
+}
+
+.sidebar__top__item img,
+.sidebar__bottom__item img {
+	width: 24px;
+	height: 22px;
+	margin-right: 32px;
+}
+
+.sidebar__bottom__item:first-of-type img {
+	width: 18px;
+	margin-left: 5px;
+}
+
+.sidebar__top__item__title,
+.sidebar__bottom__item__title {
+	color: var(--drkGrey);
+	font-size: 0.875rem;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+}
+
+/* -----Main----- */
+main {
+	width: 100%;
+	padding: 18px 15px;
+}
+
+h1 {
+	font-size: 1.25rem;
+	font-weight: 500;
+	letter-spacing: 0.15px;
+}
+
+.date {
+	color: var(--drkGrey);
+	font-size: 0.875rem;
+	letter-spacing: 0.25px;
+}
+
+.main__content {
+	width: 100%;
+	padding: 20px;
+}
+
+.main__content__pins {
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 39px;
+}
+
+.main__content__pins__item {
+	width: 353px;
+	height: 114px;
+	margin-bottom: 25px;
+	padding: 16px;
+	display: flex;
+	border-bottom: 1px solid var(--ltGrey);
+}
+
+.main__content__pins__item img {
+	width: 40px;
+	height: 40px;
+	margin-right: 16px;
+}
+
+.main__content__pins__item__content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main__content__pins__item__desc {
+	width: 272px;
+	margin-bottom: 4px;
+	color: var(--drkGrey);
+	font-size: 0.875rem;
+	font-weight: 400;
+	letter-spacing: 0.25px;
+	line-height: 20px;
+}
+
+.main__content__pins__item__link {
+	color: var(--turquoise);
+	font-size: 0.875rem;
+	font-weight: 500;
+	letter-spacing: 1.25px;
+	text-decoration: none;
+	text-align: right;
+}
+
+.personal-burnout {
+	margin-bottom: 20px;
+	font-size: 0.75rem;
+	letter-spacing: 0.4px;
+}
+
+/* -----Dashboard1----- */
+.google-calendar {
+	display: none;
+}
+
+.table {
+	display: none;
+}
+
+.dashboard1 p {
+	margin-bottom: 30px;
+	padding-left: 30px;
+	font-size: 0.75rem;
+	letter-spacing: 0.4px;
+}

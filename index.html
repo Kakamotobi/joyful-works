@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Stylesheet -->
+		<link rel="stylesheet" href="public/style.css" />
+		<title>joyfulworks</title>
+	</head>
+	<body>
+		<header>
+			<a href="/" class="logo">
+				<img src="public/assets/logo.png" alt="Logo"
+			/></a>
+		</header>
+
+		<section id="page1">
+			<div class="onboarding__container">
+				<h2 class="onboarding__title">
+					Buckle up!<br />You are on the way for joyful workplace.
+				</h2>
+
+				<p class="onboarding__desc">
+					Take a burn out evaluation survey to know about personal burn out.<br />
+					All members of your team will do the same, so you'll see how your team
+					is doing.
+				</p>
+
+				<a href="/" class="onboarding__btn" id="page1__btn">CONTINUE</a>
+			</div>
+		</section>
+
+		<section id="page2">
+			<div class="onboarding__container">
+				<h2 class="onboarding__title">Burn out survey</h2>
+
+				<p class="onboarding__desc">
+					The survey consists of 28 questions that will show the current status
+					of burn out for you. Results combined for your company will show how
+					your company is dealing with burn out. It is the first step for a more
+					joyful worklife!
+				</p>
+			</div>
+
+			<div class="survey__container" id="survey__container1">
+				<ul>
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">1</div>
+							<p class="question__title">
+								I feel emotionally drained from my work.
+							</p>
+						</div>
+						<ul class="question__options">
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="never"
+								/>
+								<label for="never">NEVER</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="few-times-a-year"
+								/>
+								<label for="few-times-a-year">A FEW TIMES A YEAR OR LESS</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="once-a-month"
+								/>
+								<label for="once-a-month">ONCE A MONTH OR LESS</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="few-times-a-month"
+								/>
+								<label for="few-times-a-month">A FEW TIMES A MONTH</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="once-a-week"
+								/>
+								<label for="once-a-week">ONCE A WEEK</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="few-times-a-week"
+								/>
+								<label for="few-times-a-week">A FEW TIMES A WEEK</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="everyday"
+								/><label for="everyday">EVERYDAY</label>
+							</li>
+						</ul>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">2</div>
+							<p class="question__title">
+								I feel used up at the end of the workday.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">3</div>
+							<p class="question__title">
+								I feel tired when I get up in the morning and have to face
+								another day on the job.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">4</div>
+							<p class="question__title">
+								Working all day is really a strain for me.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">5</div>
+							<p class="question__title">
+								I can effectively solve the problems that arise at my work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">6</div>
+							<p class="question__title">I feel burned out from my work.</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">7</div>
+							<p class="question__title">
+								I am feeling that I am making an effective contritubtion to what
+								this organization does.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">8</div>
+							<p class="question__title">
+								I have become less interested in my work since I started this
+								job.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">9</div>
+							<p class="question__title">
+								I have become less enthusiastic about my work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">10</div>
+							<p class="question__title">In my opinion, I am good at my job.</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">11</div>
+							<p class="question__title">
+								I feel exhilarated when I accomplish something at work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">12</div>
+							<p class="question__title">
+								I have accomplished many worthwhile things in this job.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">13</div>
+							<p class="question__title">
+								I just want to do my job and not be bothered.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">13</div>
+							<p class="question__title">
+								I just want to do my job and not be bothered.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">14</div>
+							<p class="question__title">
+								I have become more cynical about weather my job contributes
+								anything.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">15</div>
+							<p class="question__title">
+								I doubt the significance of my work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">16</div>
+							<p class="question__title">
+								At my work, I feel confident that I am effective at getting
+								things done.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<a href="/" class="onboarding__btn" id="page2__btn">CONTINUE</a>
+		</section>
+
+		<section id="page3">
+			<div class="onboarding__container">
+				<h2 class="onboarding__title">Areas of worklife survey</h2>
+
+				<p class="onboarding__desc">
+					The survey consists of 28 questions that will show the current status
+					of burn out for you. Results combined for your company will show how
+					your company is dealing with burn out. It is the first step for a more
+					joyful worklife!
+				</p>
+			</div>
+
+			<div class="survey__container" id="survey__container2">
+				<ul>
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">1</div>
+							<p class="question__title">
+								I do not have time to do the work that must be done.
+							</p>
+						</div>
+						<ul class="question__options">
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="strongly-disagree"
+								/>
+								<label for="strongly-disagree">STRONGLY DISAGREE</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="disagree"
+								/>
+								<label for="disagree">DISAGREE</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="hard-to-decide"
+								/>
+								<label for="hard-to-decide">HARD TO DECIDE</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="agree"
+								/>
+								<label for="agree">AGREE</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="strongly-agree"
+								/>
+								<label for="strongly-agree">STRONGLY AGREE</label>
+							</li>
+						</ul>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">2</div>
+							<p class="question__title">
+								I work intensely for prolonged periods of time.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">3</div>
+							<p class="question__title">
+								I have so much work to do on the job that takes me away from my
+								personal interests.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">4</div>
+							<p class="question__title">
+								I have enough time to do what's important in my job.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">5</div>
+							<p class="question__title">
+								I leave my work behind when I go home at the end of the workday.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">6</div>
+							<p class="question__title">
+								I have control over how I do my work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">7</div>
+							<p class="question__title">
+								I can influence management to obtain the equipment and space I
+								need for my work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">8</div>
+							<p class="question__title">
+								I have professional autonomy/independence in my work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">9</div>
+							<p class="question__title">
+								I have influence in the decisions affecting my work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">10</div>
+							<p class="question__title">
+								I receive recognition from others for my work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">11</div>
+							<p class="question__title">My work is appreciated.</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">12</div>
+							<p class="question__title">My efforts usually go unnoticed.</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">13</div>
+							<p class="question__title">
+								I do not get recognized for all the things I contribute.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">14</div>
+							<p class="question__title">
+								People trust one another to fulfill their roles.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<a href="/" class="onboarding__btn" id="page3__btn">CONTINUE</a>
+		</section>
+
+		<section id="page4">
+			<div class="onboarding__container">
+				<h2 class="onboarding__title">Areas of worklife survey</h2>
+
+				<p class="onboarding__desc">
+					The survey consists of 28 questions that will show the current status
+					of burn out for you. Results combined for your company will show how
+					your company is dealing with burn out. It is the first step for a more
+					joyful worklife!
+				</p>
+			</div>
+
+			<div class="survey__container" id="survey__container3">
+				<ul>
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">15</div>
+							<p class="question__title">
+								I am a member of a supportive work group.
+							</p>
+						</div>
+						<ul class="question__options">
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="strongly-disagree"
+								/>
+								<label for="strongly-disagree">STRONGLY DISAGREE</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="disagree"
+								/>
+								<label for="disagree">DISAGREE</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="hard-to-decide"
+								/>
+								<label for="hard-to-decide">HARD TO DECIDE</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="agree"
+								/>
+								<label for="agree">AGREE</label>
+							</li>
+							<li class="question__option">
+								<input
+									type="radio"
+									class="question__option__radio"
+									id="strongly-agree"
+								/>
+								<label for="strongly-agree">STRONGLY AGREE</label>
+							</li>
+						</ul>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">16</div>
+							<p class="question__title">
+								Members of my work group cooperate with one another.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">17</div>
+							<p class="question__title">
+								Members of my work group communicate openly.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">18</div>
+							<p class="question__title">
+								I don't feel close to my colleagues.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">19</div>
+							<p class="question__title">
+								Resources are allocated fairly here.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">20</div>
+							<p class="question__title">
+								Opportunities are decided solely on merit.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">21</div>
+							<p class="question__title">
+								There are effective appeal procedures available when I question
+								the fairness of a decision.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">22</div>
+							<p class="question__title">
+								Management treats all employees fairly.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">23</div>
+							<p class="question__title">
+								Favoritism determines how decisions are made at work.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">24</div>
+							<p class="question__title">
+								It's not what you know but who you know that determines a career
+								here.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">25</div>
+							<p class="question__title">
+								My values and the company's values are alike.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">26</div>
+							<p class="question__title">
+								The company's goals influence my day to day work activities.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">27</div>
+							<p class="question__title">
+								My personal career goals are consistent with the company's
+								stated goals.
+							</p>
+						</div>
+					</li>
+
+					<li class="survey__item">
+						<div class="question">
+							<div class="question__number">28</div>
+							<p class="question__title">
+								The company is committed to quality.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<a href="/workspace.html" class="onboarding__btn" id="page4__btn"
+				>CONTINUE</a
+			>
+		</section>
+
+		<footer>
+			<a href="#" class="privacy-and-terms">Privacy & Terms</a>
+		</footer>
+
+		<script src="public/app.js"></script>
+	</body>
+</html>

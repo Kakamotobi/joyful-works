@@ -1,0 +1,164 @@
+:root {
+	--turquoise: #00b8c6;
+	--white: #fff;
+	--ltGrey: #0000001f;
+	--grey: #00000061;
+	--drkGrey: #00000099;
+	--black: #000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+header {
+	margin: 150px auto 46px;
+}
+
+section {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.onboarding__container {
+  width: 495px;
+	margin-inline: auto;
+}
+
+.onboarding__title {
+	width: 100%;
+	margin-bottom: 27px;
+  text-align: center;
+	font-size: 3.125rem;
+	font-weight: 700;
+	letter-spacing: 0.15px;
+}
+
+.onboarding__desc {
+	width: 100%;
+	margin-bottom: 64px;
+	font-size: 1.375rem;
+	font-weight: 400;
+	letter-spacing: 0.15px;
+	line-height: 33px;
+	text-align: center;
+}
+
+.onboarding__btn {
+	width: 495px;
+	height: 36px;
+	margin-inline: auto;
+  margin-bottom: 152px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--turquoise);
+	border-radius: 4px;
+	text-decoration: none;
+	color: var(--white);
+	font-size: 0.875rem;
+	font-weight: 500;
+	letter-spacing: 1.25px;
+}
+
+.privacy-and-terms {
+	color: var(--drkGrey);
+	font-size: 0.75rem;
+	letter-spacing: 0.4px;
+}
+
+/* Page 2, 3, 4 */
+
+.survey__container {
+	width: 800px;
+	padding: 24px;
+}
+
+.survey__item {
+	margin-bottom: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+.question {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.question__number {
+	width: 24px;
+	height: 24px;
+	margin-right: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--grey);
+	border-radius: 50%;
+	color: var(--white);
+	font-size: 0.75rem;
+}
+
+.survey__item:first-of-type .question__number {
+	background-color: var(--turquoise);
+}
+
+.question__title {
+	color: var(--drkGrey);
+	font-size: 1rem;
+	letter-spacing: 0.15px;
+}
+
+.survey__item:first-of-type .question__title {
+	color: var(--black);
+}
+
+.question__options {
+	margin-left: 10px;
+}
+
+.question__option {
+	width: 100%;
+	height: 42px;
+	display: flex;
+	align-items: center;
+	color: var(--drkGrey);
+	font-size: 0.875rem;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+}
+
+.question__option__radio {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+#page2 {
+	display: none;
+}
+
+#page3 {
+	display: none;
+}
+
+#page4 {
+  display: none;
+}
